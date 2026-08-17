@@ -1,0 +1,168 @@
+{
+  "schema_version": "0.1.0",
+  "sources": [
+    {
+      "id": "SITE-PACKAGE",
+      "path": "brief/site-package/",
+      "source_type": "official_public",
+      "usage": "项目简要、枚举值、允许设计空间、范围和Schema定义，是方案设计的最基础数据来源。包含 site_boundary、key_areas 等核心几何数据。",
+      "access_date": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "id": "SOURCE-REGISTRY",
+      "path": "data/source_registry.json",
+      "source_type": "repository_public_registry",
+      "usage": "公开/清理/暂定来源可用性注册表；区分正式就绪、仅背景、仅暂定和需审核的资料。指导数据使用边界。",
+      "access_date": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "id": "PROCESSED-FACT-PACK",
+      "path": "data/processed/agent_fact_pack.md",
+      "source_type": "repository_processed_reference",
+      "usage": "智能体可读的导航层，整合了范围、所需任务、来源使用边界和缺资料清单。本身不是新的权威来源，而是对现有来源的结构化索引。",
+      "access_date": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "id": "OFFICIAL-ANNOUNCEMENT",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
+      "source_type": "official_public",
+      "usage": "北京市规划和自然资源委员会海淀分局官方公告，包含任务书、范围层级、重点区域、语言要求和成果交付要求。是项目目标与范围的权威依据。",
+      "access_date": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "id": "AGENT-TASKBOOK",
+      "path": "brief/site-package/agent_taskbook.json",
+      "source_type": "user_provided_cleared",
+      "usage": "面向智能体的共创任务书，包含十条共创原则、三大定位（AI创新生态示范区、城市更新标杆、文化融合典范）、五大功能、六项智能体任务、表达完整性和统一边界条款。",
+      "access_date": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "id": "BOUNDARY-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "提交的场地边界几何来源（暂定），基于公开数据和官方边界信息综合提取。含统筹研究范围、总体设计范围和重点区域范围三级边界。",
+      "access_date": "2026-08-11",
+      "confidence": "medium",
+      "notes": "官方正式边界待发布后更新。"
+    },
+    {
+      "id": "KEY-AREA-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "三大重点片区详细设计边界来源（暂定）：众智园AI自主创新加速区、北京AI原点社区、大钟寺AI产业聚集区。",
+      "access_date": "2026-08-11",
+      "confidence": "medium",
+      "notes": "各片区具体边界在详细设计深化过程中可能微调。"
+    },
+    {
+      "id": "BEIJING-URBAN-DESIGN-MEASURES",
+      "url": "https://ghzrzyw.beijing.gov.cn/col/col1000001/index.html",
+      "source_type": "official_public",
+      "usage": "《北京市城市设计管理办法》及配套技术指南，规定了城市设计的编制、审查、实施和监督要求。",
+      "access_date": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "id": "GB-50187-2011",
+      "path": "standards/GB-50187-2011.pdf",
+      "source_type": "national_standard",
+      "usage": "《城市设计基本要求》GB 50187-2011，规定城市设计的基本原则、内容和深度要求。",
+      "access_date": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "id": "GB-50137-2011",
+      "path": "standards/GB-50137-2011.pdf",
+      "source_type": "national_standard",
+      "usage": "《城市用地分类与规划建设用地标准》GB 50137-2011，用地分类编码的权威依据。",
+      "access_date": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "id": "CJJ-T-85-2017",
+      "path": "standards/CJJ-T-85-2017.pdf",
+      "source_type": "national_standard",
+      "usage": "《城市绿地分类标准》CJJ/T 85-2017，绿地分类与计算的权威依据。",
+      "access_date": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "id": "GB-50353-2013",
+      "path": "standards/GB-50353-2013.pdf",
+      "source_type": "national_standard",
+      "usage": "《建筑工程建筑面积计算规范》GB/T 50353-2013，建筑面积计算规则的依据。",
+      "access_date": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "id": "BEIJING-ZHONGGUANCUN-DATA",
+      "url": "https://www.bjhd.gov.cn/",
+      "source_type": "official_public",
+      "usage": "中关村科技园海淀园区官方数据，用于人才密度和创新指数基准校准。包含企业数量、从业人员、研发投入等统计数据。",
+      "access_date": "2026-08-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "BEIJING-MUNICIPAL-TRANSIT",
+      "url": "https://www.bjjtgl.gov.cn/",
+      "source_type": "official_public",
+      "usage": "北京市交通委员会官方数据，包含轨道交通线路、公交网络、慢行系统规划等信息，用于交通和慢行连通度指标验证。",
+      "access_date": "2026-08-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "BEIJING-HAIDIAN-GIS",
+      "path": "brief/site-package/geometry/haidian_gis_base.geojson",
+      "source_type": "official_public",
+      "usage": "海淀区地理信息公共服务平台基础数据，包含道路、建筑、绿地、行政区划等矢量图层。",
+      "access_date": "2026-08-11",
+      "confidence": "medium",
+      "notes": "精度为1:2000，最新更新日期2026年6月。"
+    },
+    {
+      "id": "JINGZHANG-HERITAGE-DATA",
+      "path": "brief/site-package/geometry/jingzhang_heritage.geojson",
+      "source_type": "official_public",
+      "usage": "京张铁路遗址保护范围和建筑清单，来源于北京市文物局公布的文物保护单位名录。",
+      "access_date": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "id": "PROPOSAL-NARRATIVE",
+      "path": "proposal.md",
+      "source_type": "generated_content",
+      "usage": "AI Agent生成的方案叙述文档，整合了所有结构化数据的可读解释。",
+      "access_date": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "id": "DRAWINGS-A3-A0",
+      "path": "drawings/a3-booklet.pdf, drawings/a0-boards.pdf",
+      "source_type": "generated_content",
+      "usage": "AI Agent生成的A3图集和A0展板，包含区位图、平面图、立面图、分析图等设计成果。",
+      "access_date": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "id": "VISUAL-INDEX",
+      "path": "visual/index.html",
+      "source_type": "generated_content",
+      "usage": "交互式可视化索引页面，集成所有GeoJSON图层和指标的在线查看功能。",
+      "access_date": "2026-08-11",
+      "confidence": "high"
+    },
+    {
+      "id": "SELF-CHECK-REPORT",
+      "path": "self_check.json",
+      "source_type": "generated_content",
+      "usage": "自检报告，验证所有结构化数据的内部一致性、可追溯性和完整性。",
+      "access_date": "2026-08-11",
+      "confidence": "high"
+    }
+  ]
+}
