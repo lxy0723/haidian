@@ -26,7 +26,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "b2698ed4f1d582ec878359e7b88867e6bd378c02c6fe88bf2b713f66326610f1"
+      "sha256": "89fefbfa9d4b9e7065a2460307f46dd8954836ec08d9561ac4847dfe722dc60c"
     },
     {
       "path": "agent.json",
@@ -284,6 +284,11 @@
       "language": "en",
       "translation_of": "assets/figures/site-overview.png",
       "sha256": "ff54a786a4fa8289c9525d891f343f2176b98c197d1fe79729aec271612449be"
+    },
+    {
+      "path": "assets/logo_jzasc.svg",
+      "sha256": "753a990f0ae38acd69250169915c5e0d9ff318c0b390989f2a4c0f86ab9b6a2f",
+      "description": "Concept logo for Jingzhang AI Symbiotic Corridor"
     }
   ],
   "validation_claim": {
