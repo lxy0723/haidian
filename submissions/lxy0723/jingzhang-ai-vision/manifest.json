@@ -38,7 +38,7 @@
       "path": "metrics.json",
       "role": "metrics",
       "required": true,
-      "sha256": "17cca079a6790306d72363cd68cde14b99d214dc1e68aab5173095073efab542"
+      "sha256": "eee8a3e6467fa87321b8d4428fe257f8e2a329c0f1f4ab664843d44b7f3c9c33"
     },
     {
       "path": "assumptions.json",
@@ -289,7 +289,7 @@
       "path": "assets/logo_jzasc.svg",
       "sha256": "753a990f0ae38acd69250169915c5e0d9ff318c0b390989f2a4c0f86ab9b6a2f",
       "required": true,
-      "role": "branding"
+      "role": "asset"
     }
   ],
   "validation_claim": {
