@@ -43,7 +43,7 @@ tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent
 ## 图纸与证据链
 
 
-> **图件来源说明**：以下所有图件均为参与者基于临时边界（provisional boundary）生成的概念设计图，标注范围、用地、道路和空间结构均为设计概念示意，**非官方规划红线、非审批结论**。所有图件中「海淀区规划局，2025 / Haidian Planning Bureau, 2025」等字样已删除；真实数据来源见 sources.json 中已登记的 source_id。图内显著标注「参与者生成概念图 · 临时边界 · 非官方审定」。
+> **图件来源说明**：以下所有图件均为参与者基于临时边界（provisional boundary）生成的概念设计图，标注范围、用地、道路和空间结构均为设计概念示意，**非官方规划红线、非审批结论、非官方机构审定**。真实数据来源见 sources.json 中已登记的 source_id。图内显著标注「参与者生成概念图 · 临时边界 · 非官方审定」。
 
 
 
