@@ -122,7 +122,7 @@
         "site_area_sqm": 11412825.386,
         "green_ratio": 0.298819,
         "public_space_ratio": 0.030331,
-        "innovation_index": 0.782,
+        "innovation_index": null,
         "walkability": 0.684
       }
     },
