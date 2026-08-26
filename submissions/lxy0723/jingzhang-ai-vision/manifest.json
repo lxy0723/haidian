@@ -26,7 +26,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "5dc418df18c2bf0eabf2285a831b84d7198be9a8c5613c788062846434adc5eb"
+      "sha256": "577cd001ae084aaa02667a3eb26ba56ce2abeed123b63ba790708a615c4450e5"
     },
     {
       "path": "agent.json",
