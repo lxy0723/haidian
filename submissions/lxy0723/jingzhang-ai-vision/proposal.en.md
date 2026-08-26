@@ -120,7 +120,7 @@ Building footprint control follows [depth:retain_renovate_demolish]. The AI R&D 
 The transportation plan revolves a three-element structure of "integrated transit stations + micro-road circulation + slow-travel network":
 - **Transit Integration**: Dazhongsi Station, Wudaokou Station, and Qinghua East Road West Station serve as three major transit hubs, with industrial services and public spaces arranged within 500 meters of each station
 - **Micro-Road Circulation**: A 20km/h slow-travel-priority micro-circulation system is established within the three key districts
-- **Blue-Green Slow-Travel Loop**: Based on the Jingzhang Heritage Park as a framework, a continuous slow-travel network with a total length of approximately 12km is formed
+- **Blue-Green Slow-Travel Loop**: Based on the Jingzhang Heritage Park as a framework, a continuous slow-travel network with a total length of approximately 15km slow-travel skeleton (including Jingzhang Heritage Park vitality belt and east-west corridor; conceptual estimate, pending transport survey)
 
 ## Detailed Design of Key Areas
 
@@ -341,8 +341,8 @@ The AI R&D demonstration building footprint [data:geometry/buildings.geojson#BLD
 ### Building Character Control
 
 Building height and massing control follow [depth:height_massing_character]:
-- Zhongzhi Park District: Building heights 24-36 meters, setback design, rooftop greening + photovoltaics
-- Origin Community District: Building heights 18-24 meters, low-rise high-density, facades using red brick and glass combination
+- Zhongzhi Park: Building heights proposed 24-36m (conceptual, pending regulatory plan), setback design concept, rooftop greening + PV (subject to structural review)
+- Origin Community: Building heights proposed 18-24m (conceptual, pending regulatory plan), low-rise high-density concept, facades may use red brick + glass (subject to heritage review)
 - Dazhongsi District: Building heights 36-60 meters, modern business style, unified AI signage system
 - Around Heritage Park: Building heights not exceeding 24 meters, harmonizing with the historical environment
 
@@ -409,7 +409,7 @@ This proposal designs **three AI pilgrimage landmarks**, forming a spiritual lan
 
 #### Landmark Three: Global AI Milestone Corridor
 - **Location**: Southern section of Jingzhang Heritage Park Vitality Belt (north of Dazhongsi, within [data:geometry/green_space.geojson#GREEN-001])
-- **Design Concept**: A 200-meter-long linear corridor with 12 milestone sculptures on each side, each representing a milestone event in AI development history (1956 Dartmouth Conference, 1995 Statistical Learning, 2006 Deep Learning, 2016 AlphaGo, 2022 Large Models, 2025 AGI Breakthrough, etc.)
+- **Design Concept**: A 200-meter-long linear corridor with 12 milestone sculptures on each side, each representing a milestone event in AI development history (1956 Dartmouth Conference, 1995 Statistical Learning, 2006 Deep Learning, 2016 AlphaGo, 2022 Large Models, Future AGI Breakthrough (conceptual), etc.)
 - **Functions**: AI cultural science corridor, public photo check-in point, AI enterprise brand display area
 - **Operations**: Milestones updated every two years; AI enterprises may sponsor milestone sculptures (subject to rights clearance approval)
 
@@ -499,7 +499,7 @@ This proposal constructs an annual AI innovation activity system of **"Four-Seas
 
 **Long-Term Brand Mechanisms**:
 - "Jingzhang AI Innovation Index": Annual release covering dimensions such as AI industry scale, innovation vitality, open-source contribution, and talent density
-- "Jingzhang AI Medal": Lifetime honor for global AI contributors, with the first 100 medals issued in 2025
+- "Jingzhang AI Medal": Lifetime honor for global AI contributors, with the first 100 medals planned for future launch (conceptual, not issued)
 - "AI Civilization Time Capsule": Sealed with contemporary AI achievements, scheduled to be opened in 2125 (220th anniversary of Jingzhang Railway + 100th anniversary of AI Innovation Belt)
 
 ## Metrics, Area Recalculation, and Compliance Matrix
@@ -668,11 +668,11 @@ The following scenarios involve personal/sensitive data and are currently concep
 
 | User Group | Non-Digital Alternative | On-Site Human Assistance | Affordability | Accessible Wayfinding | Complaint/Appeal Channel | Testable Acceptance Criteria |
 |---|---|---|---|---|---|---|
-| **Older people** | Service window, paper maps, phone hotline | Dedicated staff at service centers | Free public services; senior discounts | Tactile maps, voice navigation, large-print signage | Phone, on-site, community rep | Response ≤10 min; font ≥36pt |
+| **Older people** | Service window, paper maps, phone hotline | Dedicated staff at service centers | Free public services; senior discounts | Tactile maps, voice navigation, large-print signage | Phone, on-site, community rep | Response target ≤10 min (candidate KPI, pending operations testing); font target ≥36pt (candidate KPI, pending accessibility code review) |
 | **Children** | Family routes, non-digital interactive installations | Activity/education staff accompaniment | Free children's activity areas | Color-coded routes, signage ≤1.2m height | Parent feedback forms, community | Safety distance signage 100%; safety-tested installations |
-| **Low-digital-literacy users** | Service window, paper guides, phone hotline | Volunteers at service centers | All public services free | Icon-based navigation, voice assistance | Phone, on-site | Human service coverage ≥80% of public nodes |
+| **Low-digital-literacy users** | Service window, paper guides, phone hotline | Volunteers at service centers | All public services free | Icon-based navigation, voice assistance | Phone, on-site | Human service coverage target ≥80% of public nodes (candidate KPI, pending staffing confirmation) |
 | **Non-smartphone users** | Paper maps, IC/RFID cards, on-site terminals | Device lending at service centers | Lending free | Physical signage system, tactile maps | Phone, written complaint | Non-digital service covers all core nodes |
-| **Mobility-impaired** | Accessible routes, wheelchair-reachable paths | On-site assistants (bookable) | Free accessible facilities | Wheelchair routing, accessible signage | Phone, on-site | Accessible route coverage 100% of core public spaces |
+| **Mobility-impaired** | Accessible routes, wheelchair-reachable paths | On-site assistants (bookable) | Free accessible facilities | Wheelchair routing, accessible signage | Phone, on-site | Accessible route full coverage of core public spaces (candidate KPI, pending accessibility design review) |
 | **Visually impaired** | Braille maps, voice navigation, tactile signage | Guide-dog-friendly policy, human guidance | Free assistance services | Full voice navigation, Braille signage | Phone, voice feedback | Voice navigation covers core routes; Braille at core nodes |
 | **Hearing impaired** | Text signage, sign-language video, vibration alerts | Sign-language service (bookable) | Free sign-language service | Text navigation, visual alert system | Text feedback, online complaint | Sign-language response ≤24h; text signage at core nodes |
 | **Cognitive impairments** | Simplified routes, icon-based signage, quiet zones | Companion policy, quiet zone provision | Free quiet zones | Simplified navigation, sensory-friendly design | Guardian feedback, community rep | Safe zone in each key area |
