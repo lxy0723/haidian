@@ -399,7 +399,7 @@ This proposal designs **three AI pilgrimage landmarks**, forming a spiritual lan
 - **Location**: Northern section of Jingzhang Heritage Park Vitality Belt (south of Zhongzhi Park, within [data:geometry/green_space.geojson#GREEN-001])
 - **Design Concept**: A 38-meter-high metal tower with a "twisted rail" form — two parallel Jingzhang Railway rails twisted into a spiraling AI neural network pattern, symbolizing "civilizational leap from historical rails to intelligent neural networks"
 - **Functions**: AI history exhibition (from the Turing Test to the century-long context of deep learning), AI real-time computing power display wall (dynamically displaying global AI computing power distribution), 360-degree observation deck at the top
-- **Cultural Narrative**: Commemorates the century-long dialogue between the 1905 groundbreaking of the Jingzhang Railway and the 2025 launch of the Jingzhang AI Innovation Belt
+- **Cultural Narrative**: Commemorates the century-long dialogue between the 1905 groundbreaking of the Jingzhang Railway and the future conceptual launch of the Jingzhang AI Innovation Belt (conceptual, not implemented)
 
 #### Landmark Two: Open-Source Contribution Honor Wall
 - **Location**: Core square of Beijing AI Origin Community
