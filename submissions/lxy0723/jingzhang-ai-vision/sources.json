@@ -396,6 +396,48 @@
       "spatial_temporal_scope": "Barcelona, Spain; current",
       "transformations": "Qualitative model extraction",
       "limitations": "Background reference; different urban morphology and planning tradition"
+    },
+    {
+      "id": "BENCH-TSUKUBA",
+      "url": "https://www.tsukuba.go.jp/",
+      "source_type": "background_reference",
+      "usage": "Tsukuba Science City benchmark: government-led planning, national research institute clustering, residential-work balance. Used for comparative analysis only.",
+      "access_date": "2026-08-11",
+      "confidence": "low",
+      "publisher": "Tsukuba City Government (public website)",
+      "title": "Tsukuba Science City Overview",
+      "license": "Public website; background reference only; not formal evidence",
+      "spatial_temporal_scope": "Tsukuba, Japan; current",
+      "transformations": "Qualitative mechanism extraction",
+      "limitations": "Background reference; different governance and land system context"
+    },
+    {
+      "id": "BENCH-SHENZHEN-AI-TOWN",
+      "url": "https://www.sz.gov.cn/",
+      "source_type": "background_reference",
+      "usage": "Shenzhen AI Town benchmark: government-driven development, computing infrastructure first, open application scenarios. Used for comparative analysis only.",
+      "access_date": "2026-08-11",
+      "confidence": "low",
+      "publisher": "Shenzhen Municipal Government (public portal)",
+      "title": "Shenzhen AI Industry Development White Paper",
+      "license": "Public government data; background reference only",
+      "spatial_temporal_scope": "Shenzhen, China; 2024 reports",
+      "transformations": "Qualitative mechanism extraction",
+      "limitations": "Background reference; different land supply and fiscal context from Haidian"
+    },
+    {
+      "id": "BENCH-SEATTLE-AI-CORRIDOR",
+      "url": "https://www.seattle.gov/",
+      "source_type": "background_reference",
+      "usage": "Seattle AI Corridor benchmark: Microsoft/Amazon dual-engine, cloud-AI synergy, ecological natural growth. Used for comparative analysis only.",
+      "access_date": "2026-08-11",
+      "confidence": "low",
+      "publisher": "Seattle Metropolitan Chamber of Commerce / public reports",
+      "title": "Seattle Innovation Partnership Zone Reports",
+      "license": "Public reports; background reference only; not formal evidence",
+      "spatial_temporal_scope": "Seattle, USA; 2024-2026 reports",
+      "transformations": "Qualitative mechanism extraction",
+      "limitations": "Background reference; depends on headquarters economy and different regulatory environment"
     }
   ]
 }
