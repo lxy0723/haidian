@@ -38,7 +38,7 @@
       "path": "metrics.json",
       "role": "metrics",
       "required": true,
-      "sha256": "dcf01ce39f385e60112afe92da34cf94f4fd0fb28eb2e007cd4b2970fc96312d"
+      "sha256": "17cca079a6790306d72363cd68cde14b99d214dc1e68aab5173095073efab542"
     },
     {
       "path": "assumptions.json",
@@ -81,7 +81,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "cfbeca43e81e234d2fcabbb1405fe67ab140cf12f4035eb5905dbbf11cdc62dc"
+      "sha256": "2c1b78e1f33d555a2408cf940880de4479c59bdc0abadfe563b04b96ba32f0b7"
     },
     {
       "path": "report/narrative.md",
@@ -114,7 +114,7 @@
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "e6be87a5be4381a639d5494af47a5d1bafcbc2fa51ac4664d13bf9ac28e19abf"
+      "sha256": "79914fa9f1b2fda0776959fd09834c39c4618317e5e10e5fa12277729cc8c489"
     },
     {
       "path": "assets/figures/key-areas.png",
@@ -288,7 +288,8 @@
     {
       "path": "assets/logo_jzasc.svg",
       "sha256": "753a990f0ae38acd69250169915c5e0d9ff318c0b390989f2a4c0f86ab9b6a2f",
-      "description": "Concept logo for Jingzhang AI Symbiotic Corridor"
+      "required": true,
+      "role": "branding"
     }
   ],
   "validation_claim": {
