@@ -113,7 +113,7 @@
       ]
     },
     "innovation_index": {
-      "status": "derived",
+      "status": "unknown",
       "value": 0.782,
       "unit": "index_0_to_1",
       "source_files": [
@@ -128,7 +128,7 @@
         "Baseline calibrated against Beijing Zhongguancun comparable areas (provisional estimate).",
         "No official baseline data available; figure requires professional validation before use in planning decisions."
       ],
-      "reason": "AI innovation index requires official baseline data"
+      "reason": "AI innovation index requires official baseline data; composite weights are provisional estimates"
     },
     "talent_density": {
       "status": "unknown",
