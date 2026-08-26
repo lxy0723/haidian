@@ -336,7 +336,7 @@ The building plan distinguishes four categories: **retain / renovate / update / 
 - **Update**: Low-efficiency commercial buildings and old industrial buildings, with functional replacement for AI industrial services (approximately 25%)
 - **New-Build**: AI-functional buildings at new industrial nodes and residential districts (approximately 15%)
 
-The AI R&D demonstration building footprint [data:geometry/buildings.geojson#BLDG-001] occupies approximately 310,807 square meters, serving as a design template.
+The AI R&D demonstration building footprint [data:geometry/buildings.geojson#BLDG-001] occupies approximately 302,609 square meters, serving as a design template.
 
 ### Building Character Control
 
@@ -389,7 +389,7 @@ Based on the Jingzhang Heritage Park Vitality Belt ([data:geometry/green_space.g
 - **Three Parks**: Zhongzhi Park Low-Carbon Innovation Park, Origin Community Talent Park, Dazhongsi Urban Living Room Park
 - **Multiple Points**: Micro-green spaces and pocket parks within each district, with a service radius not exceeding 300 meters
 
-The green space ratio is not less than 25%, and the public space ratio is not less than 15%, following [depth:blue_green_public_space] and [data:geometry/public_space.geojson#PUBLIC-001] (83.6 hectares).
+The green space ratio is 29.9% (metrics.json measured value 0.298819), and the public space ratio is 3.0% (metrics.json measured value 0.030331), following [depth:blue_green_public_space] and [data:geometry/public_space.geojson#PUBLIC-001] (34.6 hectares, metrics.json measured value 346,167 sqm).
 
 ### AI Pilgrimage Landmark Design (agent.4)
 
@@ -512,12 +512,12 @@ This proposal constructs an annual AI innovation activity system of **"Four-Seas
 | | Total Key Area Area | ~3,692,893 sqm | [data:geometry/key_areas.geojson#PROV-KEY-001/002/003] |
 | | Green Space and Open Space Area | ~2,589,339 sqm | [data:geometry/land_use.geojson#LU-002] |
 | | Continuous Park Green Space Area | ~1,408,601 sqm | [data:geometry/green_space.geojson#GREEN-001] |
-| | Public Activity Space Area | ~836,346 sqm | [data:geometry/public_space.geojson#PUBLIC-001] |
+| | Public Activity Space Area | ~346,167 sqm | [data:geometry/public_space.geojson#PUBLIC-001] |
 | | AI R&D Innovation Land Area | ~2,674,562 sqm | [data:geometry/land_use.geojson#LU-001] |
-| | Total Building Footprint Area | ~310,807 sqm | [data:geometry/buildings.geojson#BLDG-001] |
+| | Total Building Footprint Area | ~302,609 sqm | [data:geometry/buildings.geojson#BLDG-001] |
 | | Total Slow-Travel Corridor Length | ~15,000 m | [data:geometry/roads.geojson#ROAD-001] + design derivation |
-| **Ratio Metrics** | Green Space Ratio | ≥25% | Design recommendation, pending regulatory plan confirmation |
-| | Public Space Ratio | ≥15% | Design recommendation, pending regulatory plan confirmation |
+| **Ratio Metrics** | Green Space Ratio | 29.9% | Design recommendation, pending regulatory plan confirmation |
+| | Public Space Ratio | 3.0% | Design recommendation, pending regulatory plan confirmation |
 | | AI Industry Land Proportion | ~23.4% | [data:geometry/land_use.geojson#LU-001] / [data:geometry/site_boundary.geojson#SITE-001] |
 | **Operations Metrics** | AI Scenario Node Count | 12 locations | This proposal design |
 | | AI Pilgrimage Landmark Count | 3 locations | This proposal design |
@@ -584,3 +584,107 @@ This proposal is a design submission and does not claim official approval, autho
 - Complete machine index: see `sources.json`, `metrics.json`, `compliance_matrix.json`, `standard_matrix.json`, and `design_depth_matrix.json`
 - Global AI ecosystem case references: official public materials of Silicon Valley AI Cluster, Tsukuba Science City, London Tech Quarter, Station F Paris, Shenzhen AI Town, Zhongguancun AI Cluster, Seattle AI Corridor, Singapore AI District
 - Bibliographic entries in this section are registered according to the site package; for complete sources and permissions, see the structured source list [source:SITE-PACKAGE]
+
+---
+
+## Public Space Component Library (agent.4 supplement)
+
+> The following component library is a typified list at the conceptual design stage. Actual selection, configuration, and construction must be determined after regulatory plan confirmation, site condition survey, and professional engineering review. All components are marked with non-implementable conditions.
+
+### Component Type Matrix
+
+| Component ID | Component Type | Applicable Space | Service Target | Data/Energy Needs | Accessibility Requirements | Maintenance Responsibility | Non-Implementable Conditions |
+|---|---|---|---|---|---|---|---|
+| PC-01 | AI Interactive Guide Post | Public space nodes, key area entrances | All visitors | 4G/5G/WiFi; mains power; low-power edge computing | Voice interaction, Braille buttons, height ≤1.2m | Proposed: property management (pending authorization) | Cannot deploy without network or power |
+| PC-02 | Open-Source Contribution Display Wall | Origin Community central plaza | Developers, public | LED screen; API (GitHub/Gitee); mains power | Audio description for visually impaired; adjustable viewing angle | Proposed: open-source community org (pending authorization) | Cannot implement without open-platform API authorization |
+| PC-03 | Slow-Mobility Breakpoint Diagnostic Stake | Blue-green slow-travel loop | Slow-mobility users, management | Public data + manual review; offline sensors; solar | Wheelchair accessible, tactile maps | Proposed: urban management authority (pending authorization) | Requires privacy assessment if involving personal location data |
+| PC-04 | AI Safety Governance Display Podium | Key area public spaces | Enterprises, government, public | Model testing data (desensitized); mains power; edge computing | Multi-language support, sign-language video | Proposed: AI safety governance institution (pending authorization) | Conceptual display only until safety standards body is confirmed |
+| PC-05 | Low-Carbon Computing Waystation | Zhongzhiyuan, Dazhongsi industry nodes | Enterprises, developers | Distributed PV + storage; liquid cooling; network | Universal accessible access | Proposed: energy service enterprise (pending authorization) | Cannot construct before energy capacity assessment |
+| PC-06 | Talent Life Service Kiosk | Origin Community, community service zones | AI talent, residents | Public service data (desensitized); mains power | Accessible service window, voice assistance | Proposed: talent service agency (pending authorization) | Requires clear legal basis when involving personal data |
+| PC-07 | Jingzhang Memory Interactive Installation | Jingzhang Heritage Park vitality belt | All visitors | Historical archives (public); solar; offline storage | Multi-sensory experience (visual + tactile + auditory) | Proposed: cultural heritage authority (pending authorization) | Requires approval when involving protected heritage structures |
+| PC-08 | Public Safety Emergency Post | Public space nodes | Management, public | Public space cameras (desensitized); emergency communication | One-touch alarm height ≤1.0m; flash alert | Proposed: emergency management authority (pending authorization) | Cannot activate without emergency management authorization |
+
+### Component-to-Key-Area Mapping
+
+| Key Area | Applicable Components | Corresponding Scenario Cards |
+|---|---|---|
+| Zhongzhiyuan AI Innovation Acceleration Zone | PC-01, PC-05, PC-08 | Scenario 02, 08, 10 |
+| Beijing AI Origin Community | PC-01, PC-02, PC-06, PC-07 | Scenario 01, 04, 09 |
+| Dazhongsi AI Industry Cluster Zone | PC-01, PC-04, PC-05, PC-08 | Scenario 05, 07, 10 |
+
+### Non-Implementable Conditions Summary
+
+All components above are typified suggestions at the conceptual design stage. Actual selection, configuration, and construction must satisfy the following preconditions:
+1. Site condition survey and professional engineering review completed
+2. Regulatory plan confirmation and municipal infrastructure availability
+3. Privacy impact assessment completed for components involving personal data
+4. Written authorization obtained for components involving third-party APIs/platforms
+5. Cultural heritage authority approval for components involving protected heritage
+6. Emergency management authorization for public safety components
+
+---
+
+## Scenario Governance Template (Unified Supplement)
+
+> This template applies to all 12 AI scenario cards. Each scenario must supplement governance information according to this template. All technical governance chains are conceptual design stage statements and do not constitute legal basis or risk assessment conclusions.
+
+### Unified Governance Template
+
+| Dimension | Content Requirement | Scope |
+|---|---|---|
+| **Input** | Data source, data type, whether personal/sensitive data is involved | All 12 scenarios |
+| **Processing** | Algorithm/model overview, processing location (edge/cloud), governance mechanism | All 12 scenarios |
+| **Output** | Service/product form, target users, feedback mechanism | All 12 scenarios |
+| **Spatial Carrier** | Physical location, facility requirements, mapping to key areas/nodes | All 12 scenarios |
+| **Responsible Entity** | Proposed data controller (pending authorization), processor, operator | All 12 scenarios |
+| **Human Review** | Review mechanism, reviewer qualification, review frequency | All 12 scenarios |
+| **Failure Degradation** | Service degradation plan, non-digital alternative routes | All 12 scenarios |
+| **Exit Conditions** | Scenario termination conditions, data deletion audit, post-exit handling | All 12 scenarios |
+| **Validation Metrics** | Testable KPIs, audit cycle, third-party assessment requirements | All 12 scenarios |
+
+### High-Risk Scenario Notes
+
+The following scenarios involve personal/sensitive data and are currently conceptual only. No technical measure (including federated learning, differential privacy, instant deletion, etc.) substitutes for legal basis and risk assessment:
+
+- **Scenario 04 Talent Life Steward**: Involves residential, educational, and health personal data; privacy impact assessment required before collection
+- **Scenario 09 Slow-Mobility Breakpoint Diagnosis**: Involves mobile phone location data; must inform users, obtain consent, and set retention periods
+- **Scenario 11 Public Safety Dispatch**: Involves public space camera collection; must comply with PIPL and Public Security Video Image Information System Management Regulations
+- **Scenario 12 Health and Education Services**: Involves health records and education data (sensitive personal information); explicit consent and purpose limitation required
+
+### Privacy Statement Corrections
+
+1. **De-identification is not anonymization**: All data processing marked "desensitized" in this proposal refers only to technical de-identification, not legal anonymization. De-identified data may still constitute personal information under PIPL.
+2. **Data controller pending confirmation**: The data controller identity for all scenarios involving personal data requires confirmation based on the actual operating entity. All "proposed collaborative entities" are conceptual suggestions, not authorized parties.
+3. **Federated learning and differential privacy are conceptual**: Technologies mentioned are conceptual stage direction suggestions, not deployed solutions, and do not replace legal compliance assessment.
+4. **Instant video deletion**: "Instant video deletion" in public safety scenarios is a design goal; actual deletion strategy must comply with statutory retention period requirements.
+
+---
+
+## Accessibility and Inclusion Matrix
+
+> This matrix covers older people, children, low-digital-literacy users, non-smartphone users, mobility/sensory/cognitive disabilities, and non-Chinese speakers. Current stage: conceptual design suggestions. Actual standards must follow national accessibility codes and local implementation rules.
+
+### Inclusion Matrix
+
+| User Group | Non-Digital Alternative | On-Site Human Assistance | Affordability | Accessible Wayfinding | Complaint/Appeal Channel | Testable Acceptance Criteria |
+|---|---|---|---|---|---|---|
+| **Older people** | Service window, paper maps, phone hotline | Dedicated staff at service centers | Free public services; senior discounts | Tactile maps, voice navigation, large-print signage | Phone, on-site, community rep | Response ≤10 min; font ≥36pt |
+| **Children** | Family routes, non-digital interactive installations | Activity/education staff accompaniment | Free children's activity areas | Color-coded routes, signage ≤1.2m height | Parent feedback forms, community | Safety distance signage 100%; safety-tested installations |
+| **Low-digital-literacy users** | Service window, paper guides, phone hotline | Volunteers at service centers | All public services free | Icon-based navigation, voice assistance | Phone, on-site | Human service coverage ≥80% of public nodes |
+| **Non-smartphone users** | Paper maps, IC/RFID cards, on-site terminals | Device lending at service centers | Lending free | Physical signage system, tactile maps | Phone, written complaint | Non-digital service covers all core nodes |
+| **Mobility-impaired** | Accessible routes, wheelchair-reachable paths | On-site assistants (bookable) | Free accessible facilities | Wheelchair routing, accessible signage | Phone, on-site | Accessible route coverage 100% of core public spaces |
+| **Visually impaired** | Braille maps, voice navigation, tactile signage | Guide-dog-friendly policy, human guidance | Free assistance services | Full voice navigation, Braille signage | Phone, voice feedback | Voice navigation covers core routes; Braille at core nodes |
+| **Hearing impaired** | Text signage, sign-language video, vibration alerts | Sign-language service (bookable) | Free sign-language service | Text navigation, visual alert system | Text feedback, online complaint | Sign-language response ≤24h; text signage at core nodes |
+| **Cognitive impairments** | Simplified routes, icon-based signage, quiet zones | Companion policy, quiet zone provision | Free quiet zones | Simplified navigation, sensory-friendly design | Guardian feedback, community rep | Safe zone in each key area |
+| **Non-Chinese speakers** | Multi-language signage (EN/JP/KO), translation service | Translation service (bookable) | Basic multi-language signage free | Multi-language navigation system | Multi-language complaint channel | EN signage at all core nodes; translation ≤48h response |
+
+### Non-Digital Alternative Routes Summary
+
+All AI scenarios and public space services must provide non-digital alternative routes:
+1. Human service windows: at least 1 per key area, service hours ≥8 hours/day
+2. Paper materials: multi-language maps, service guides, accessible route maps updated regularly
+3. Phone hotline: covers all service functions, supports multi-language and voice assistance
+4. Physical signage system: independent of digital systems, covers all core public space nodes
+
+> This accessibility and inclusion matrix is a conceptual design stage suggestion. Actual implementation must follow the Accessibility Design Code GB 50763, Information Accessibility General Technical Specifications, and other national codes and local implementation rules, and be reviewed by professional accessibility consulting institutions.
+
