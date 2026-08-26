@@ -74,7 +74,7 @@
       "path": "design_depth_matrix.json",
       "role": "design_depth_matrix",
       "required": true,
-      "sha256": "a2e567b7d10dd4f916c083e0901accaaef00cefcb190d5954d9b55948bece455"
+      "sha256": "93ffd94d3a5527284c9c8ab38cd446755e77ee68fe5c708efac482613e0118d5"
     },
     {
       "path": "report/proposal.html",
