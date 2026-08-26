@@ -26,7 +26,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "ba17605b90fda8c2ef5a74b5027fcdea8a66d4e65d97096315f47a4bbd2aa512"
+      "sha256": "b2698ed4f1d582ec878359e7b88867e6bd378c02c6fe88bf2b713f66326610f1"
     },
     {
       "path": "agent.json",
@@ -38,7 +38,7 @@
       "path": "metrics.json",
       "role": "metrics",
       "required": true,
-      "sha256": "5318d3960c68c4ac7dc0605a51bf36caddc22fa32dba374b773fa40f9145857b"
+      "sha256": "dcf01ce39f385e60112afe92da34cf94f4fd0fb28eb2e007cd4b2970fc96312d"
     },
     {
       "path": "assumptions.json",
@@ -211,7 +211,7 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "4f3e59319725bd00138c34e0b47bf1637a07752a676753c9c64e430b518ab12e"
+      "sha256": "067bd20b3bc1d5028c5770dee23c2769af5f58c703c4f0208b6c37a7d5d10269"
     },
     {
       "path": "report/proposal.en.html",
