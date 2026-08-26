@@ -145,7 +145,7 @@ The transportation plan revolves a three-element structure of "integrated transi
 **Spatial Actions**:
 1. **Campus-Park-Block Slow-Travel Connection**: A dedicated slow-travel corridor is constructed between Qinghua East Road West Station and Tsinghua University, approximately 800 meters apart with a walking time of about 10 minutes
 2. **Achievement Release Core Zone**: An "Open-Source Contribution Honor Wall" and "AI Achievement Release Hall" are established in the community center, serving as the main venue for the annual Global AI Activity Week
-3. **Talent Zone Services**: AI talent apartments, international schools, AI medical clinics, and 24-hour open-source collaboration spaces are provided
+3. **AI Talent Integrated Services**: Concept proposal suggests AI talent apartments, international schools, AI medical clinics, and 24-hour open-source collaboration spaces (pending approval confirmation) are provided
 4. **University-Near Achievement Transformation Street**: A one-stop service street for incubation, exhibition, legal affairs, intellectual property rights, and investment and financing is arranged along Qinghua East Road
 
 **Building Strategy**: Primarily renovation (approximately 70%), supplemented by new construction (approximately 30%). Some modern-era buildings are retained as "AI Origin Commemorative Spaces." New buildings adopt a "low-rise high-density" model with heights controlled at 18-24 meters.
@@ -184,7 +184,7 @@ Based on global case analysis and Haidian industry characteristics, this proposa
 | --- | --- | --- | --- |
 | **Open-Source Developers** | Code release, community collaboration, technical reputation, night work | Origin Community open-source release hall, public code wall, 24h collaboration space | No collection of personal behavior trajectories; activity data used only for aggregate statistics |
 | **Startup Teams** | Low-cost office, computing power access, product testing, rapid iteration | Zhongzhi Park shared testing grounds, edge-side computing power waystations, standard governance consulting | Computing power and data services require separate authorization; core enterprise data not shared |
-| **Head Enterprise Visitors** | Technology display, business negotiation, international reception, talent recruitment | Dazhongsi International Roadshow Living Room, transit station VIP connection, enterprise public spaces | Enterprise logos and cases require rights clearance; visitor data used only for service optimization |
+| **Head Enterprise Visitors** | Technology display, business negotiation, international reception, talent recruitment | Dazhongsi International Roadshow Living Room, transit station Rapid connection service, enterprise public spaces | Enterprise logos and cases require rights clearance; visitor data used only for service optimization |
 | **Surrounding Residents** | Convenient commuting, daily leisure, community services, low-disturbance environment | Jingzhang Heritage Park slow-travel loop, community AI service embedding, graded night lighting | Resident personas not used for commercial recommendations; no collection of biometric data |
 | **University Faculty and Students** | Achievement transformation, cross-university collaboration, daily slow-travel, academic exchange | Campus-park slow-travel corridor, achievement transformation waystation, AI education experience points | Campus data and research achievements require university authorization; teaching data used with desensitization |
 
@@ -200,7 +200,7 @@ This proposal designs **12 AI scenario cards** covering three major domains: ind
 - **Core Functions**: AI achievement release, code contribution display, small roadshows, annual open-source community awards
 - **Data Sources**: GitHub/Gitee public contribution data, project submission records (authorization required)
 - **Privacy Boundary**: No collection of personal identity data; anonymized aggregate statistics used; code contribution display shows only user ID + contribution type, not specific code content
-- **Operating Entity**: Jointly operated by Haidian AI Open-Source Community, hosting the annual "Jingzhang AI Open-Source Gala"
+- **Proposed Collaborative Entity**: AI open-source community-related organization (pending authorization); concept proposal suggests hosting the annual "Jingzhang AI Open-Source Gala"
 - **Design Description**: The hall adopts a "stepped, sit-and-display" layout, with an LED code waterfall screen at the center displaying real-time global AI open-source project contribution rankings
 
 **Scenario Card 02 · Safety Governance Sandbox**
@@ -209,7 +209,7 @@ This proposal designs **12 AI scenario cards** covering three major domains: ind
 - **Core Functions**: AI standard formulation, model red-team testing, safety evaluation, compliance certification
 - **Data Sources**: AI model testing data (desensitized), security attack records, regulatory compliance data
 - **Privacy Boundary**: All testing data is fully desensitized; sandbox environment is isolated from physical networks; test results are viewable only by authorized clients
-- **Operating Entity**: Haidian Working Group of the National AI Standard Formulation Committee
+- **Proposed Collaborative Entity**: AI standard research-related organization (pending authorization)
 - **Design Description**: The sandbox zone adopts a "glass vault" design, making the testing process visible while operations cannot be intervened upon, serving both visitor education and safety protection functions
 
 **Scenario Card 03 · Edge-Side Computing Power Waystation**
@@ -218,7 +218,7 @@ This proposal designs **12 AI scenario cards** covering three major domains: ind
 - **Core Functions**: Edge computing access, AI model inference acceleration, intelligent terminal debugging
 - **Data Sources**: Urban IoT data, public service sensor data (desensitized), computing power usage records
 - **Privacy Boundary**: Edge-side computing processes only local data, no raw data is transmitted back to central nodes; computing power usage data is protected by differential privacy
-- **Operating Entity**: Haidian AI Computing Power Operation Center
+- **Proposed Collaborative Entity**: Regional computing power operation organization (pending authorization)
 - **Design Description**: The computing power waystation adopts a "container-type movable" design, with appearance blending into the surrounding environment, and internally equipped with GPU inference servers and high-speed networks
 
 **Scenario Card 04 · International Roadshow Living Room**
@@ -227,7 +227,7 @@ This proposal designs **12 AI scenario cards** covering three major domains: ind
 - **Core Functions**: AI product launches, investment roadshows, international media conferences, industry summits
 - **Data Sources**: Product information and roadshow content independently submitted by enterprises (authorization required)
 - **Privacy Boundary**: Intellectual property of roadshow content belongs to the enterprise; the hall does not record or store roadshow content
-- **Operating Entity**: Dazhongsi AI International Roadshow Center Co., Ltd.
+- **Proposed Collaborative Entity**: International roadshow service organization (pending authorization)
 - **Design Description**: The roadshow living room uses a "flexible modular" space that can be quickly converted into a roadshow hall, exhibition hall, or conference room, equipped with simultaneous interpretation in 8 languages
 
 #### Urban Service Scenarios (5 cards)
@@ -238,7 +238,7 @@ This proposal designs **12 AI scenario cards** covering three major domains: ind
 - **Core Functions**: AI wayfinding, slow-travel breakpoint identification, crowding warning, barrier-free path planning
 - **Data Sources**: Slow-travel flow sensors, mobile phone positioning (desensitized), barrier-free facility status
 - **Privacy Boundary**: No collection of individual location trajectories, only regional heatmap statistics; sensor data is processed in real-time and then cleared
-- **Operating Entity**: Haidian Transportation Operation Center
+- **Proposed Collaborative Entity**: Transportation operation management organization (pending authorization)
 - **Design Description**: AI wayfinding signs are installed every 200 meters along the trails, supporting voice interaction and sign language video, with solar charging panels at the base
 
 **Scenario Card 06 · Qinghe Low-Carbon Innovation Corridor**
@@ -247,7 +247,7 @@ This proposal designs **12 AI scenario cards** covering three major domains: ind
 - **Core Functions**: AI display of green space, intelligent stormwater management, low-carbon energy experience, pedestrian and cycling composite path
 - **Data Sources**: Meteorological data, water quality monitoring, energy consumption data (park-level)
 - **Privacy Boundary**: No personal data involved; only environmental and energy data collected
-- **Operating Entity**: Zhongzhi Park Low-Carbon Operation Center
+- **Proposed Collaborative Entity**: Low-carbon operation management organization (pending authorization)
 - **Design Description**: The innovation corridor adopts a trinity design of "rain garden + photovoltaic promenade + AI environment monitoring station," displaying the complete technical chain of a low-carbon park
 
 **Scenario Card 07 · University-Near Achievement Transformation Street**
@@ -256,7 +256,7 @@ This proposal designs **12 AI scenario cards** covering three major domains: ind
 - **Core Functions**: AI achievement display, technology transfer matching, intellectual property services, investment and financing roadshows
 - **Data Sources**: University achievement registration data, technology patent information, investment and financing records
 - **Privacy Boundary**: Trade secrets involving achievements are protected by NDA agreements; publicly displayed achievements require rights holder authorization
-- **Operating Entity**: Haidian Technology Transfer Center
+- **Proposed Collaborative Entity**: Technology transfer service organization (pending authorization)
 - **Design Description**: The transformation street adopts a "front shop, back factory" layout, with display and negotiation spaces on the ground floor and small laboratories and conference rooms upstairs
 
 **Scenario Card 08 · Data Elements Living Room**
@@ -265,7 +265,7 @@ This proposal designs **12 AI scenario cards** covering three major domains: ind
 - **Core Functions**: Data element circulation display, compliance audit, digital asset transaction matching
 - **Data Sources**: Data product catalog, compliance audit reports, transaction records
 - **Privacy Boundary**: All data displayed is desensitized samples, raw data is not displayed; transaction data is stored on blockchain
-- **Operating Entity**: Haidian Data Element Exchange (under preparation)
+- **Proposed Collaborative Entity**: Data element circulation service organization (pending authorization)
 - **Design Description**: The living room adopts a "transparent glass + encrypted terminal" design, with the display area open and transparent and the transaction area closed and secure
 
 **Scenario Card 09 · AI Life Service Model Street**
@@ -274,7 +274,7 @@ This proposal designs **12 AI scenario cards** covering three major domains: ind
 - **Core Functions**: AI health monitoring, AI education tutoring, AI legal consultation, AI life assistant
 - **Data Sources**: Resident health records (desensitized), education data (desensitized), public service data
 - **Privacy Boundary**: All personal data is processed using a federated learning framework, raw data does not leave the device side
-- **Operating Entity**: Haidian AI Life Service Alliance
+- **Proposed Collaborative Entity**: AI life service-related organization (pending authorization)
 - **Design Description**: The model street adopts a "experience store + service station" model, with each store displaying an AI life service and providing 14 days of free experience
 
 #### Public Governance Scenarios (3 cards)
@@ -285,7 +285,7 @@ This proposal designs **12 AI scenario cards** covering three major domains: ind
 - **Core Functions**: AI-themed parade, open-source contribution awards, industry achievement tour, public experience day
 - **Data Sources**: Activity participation data (aggregate), media coverage data
 - **Privacy Boundary**: No collection of participant personal data; photo/video collection requires marked authorization zones
-- **Operating Entity**: Jingzhang AI Innovation Week Organizing Committee
+- **Proposed Collaborative Entity**: Cultural event planning organization (pending authorization)
 - **Design Description**: The activity route totals approximately 8km, starting from Dazhongsi Station, passing through Origin Community and Zhongzhi Park, ending at the Qinghe River, with 10 AI interactive experience stations along the route
 
 **Scenario Card 11 · AI Public Security Operation Center**
@@ -294,7 +294,7 @@ This proposal designs **12 AI scenario cards** covering three major domains: ind
 - **Core Functions**: Public space safety monitoring, emergency warning, emergency resource dispatch, crowd heat analysis
 - **Data Sources**: Public space cameras (desensitized), crowd sensors, emergency resource GPS
 - **Privacy Boundary**: Video data is deleted immediately after real-time analysis, raw footage is not stored; personal identity data does not enter the AI analysis process
-- **Operating Entity**: Jointly operated by Haidian Emergency Management Bureau
+- **Proposed Collaborative Entity**: Emergency management organization (pending authorization)
 - **Design Description**: The operation center adopts a "central large screen + mobile terminal" architecture, allowing commanders to dispatch emergency resources across districts in real-time
 
 **Scenario Card 12 · AI Cultural Heritage Digital Protection Station**
@@ -303,7 +303,7 @@ This proposal designs **12 AI scenario cards** covering three major domains: ind
 - **Core Functions**: 3D digitization of Jingzhang Railway heritage, virtual restoration experience, AI cultural interpretation, heritage monitoring
 - **Data Sources**: Historical archives, archaeological data, public contribution data
 - **Privacy Boundary**: Public contribution data requires authorization; historical data has passed its protection period
-- **Operating Entity**: Haidian Cultural Heritage Protection Center
+- **Proposed Collaborative Entity**: Cultural heritage protection-related organization (pending authorization)
 - **Design Description**: The protection station adopts an "underground exhibition hall + ground-level marker" design, with 3D holographic projection underground to restore historical scenes of the Jingzhang Railway
 
 ### AI Governance Principles
@@ -488,7 +488,7 @@ This proposal constructs an annual AI innovation activity system of **"Four-Seas
 | Quarter | Theme | Core Activities |
 | --- | --- | --- |
 | **Spring (Mar-May) · Open-Source Season** | Open-source and Community | Mar: Jingzhang AI Open-Source Gala (open-source contribution awards); Apr: Global AI Developer Marathon (48-hour coding competition); May: AI Open-Source Education Week (university outreach) |
-| **Summer (Jun-Aug) · Innovation Season** | Innovation and Industry | Jun: National AI Standard Formulation Forum; Jul: AI Safety Governance Summit; Aug: Zhongzhi Park AI Product Launch Month |
+| **Summer (Jun-Aug) · Innovation Season** | Innovation and Industry | Jun: AI Standard Formulation Forum concept (pending institutional authorization); Jul: AI Safety Governance Summit; Aug: Zhongzhi Park AI Product Launch Month |
 | **Autumn (Sep-Nov) · Cultural Season** | Culture and Life | Sep: Jingzhang AI Innovation Week (core annual event); Oct: AI Life Experience Day (public open house); Nov: AI and Railway Cultural Dialogue |
 | **Winter (Dec-Feb) · Future Season** | Future and Outlook | Dec: AI Civilization Time Capsule Sealing Ceremony; Jan: Annual AI Innovation Index Release; Feb: Global AI Trend Outlook Forum |
 
