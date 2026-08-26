@@ -114,7 +114,7 @@
     },
     "innovation_index": {
       "status": "unknown",
-      "value": 0.782,
+      "value": null,
       "unit": "index_0_to_1",
       "source_files": [
         "geometry/land_use.geojson",
@@ -122,13 +122,13 @@
         "geometry/public_space.geojson"
       ],
       "formula": "weighted_sum(R&D_cluster_ratio*0.4, talent_density_normalized*0.3, public_space_ratio*0.2, 场景节点数/10*0.1)",
-      "confidence": "low",
+      "confidence": "unknown",
       "assumptions": [
         "Innovation index is a composite indicator normalized to [0,1]; weights reflect relative contribution of R&D clustering, talent concentration, and spatial quality.",
         "Baseline calibrated against Beijing Zhongguancun comparable areas (provisional estimate).",
         "No official baseline data available; figure requires professional validation before use in planning decisions."
       ],
-      "reason": "AI innovation index requires official baseline data; composite weights are provisional estimates"
+      "reason": "AI innovation index requires official baseline data; composite weights and baseline are provisional estimates - value cannot be presented without official calibration"
     },
     "talent_density": {
       "status": "unknown",
